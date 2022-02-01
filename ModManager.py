@@ -23,7 +23,8 @@ def gitssh():
               "git@ssh.gitgud.io:Tory/animaddons-voicepatch.git", "git@ssh.gitgud.io:John-the-Anabaptist/licentia-labs.git", "git@ssh.gitgud.io:HiveBro/nephila-rjw.git",
               "git@github.com:/moreoreganostodump/RJW_Menstruation.git", "git@gitlab.com:Hazzer/s16s-extension.git", "git@ssh.gitgud.io:c0ffeeeeeeee/rjw-events.git",
               "git@ssh.gitgud.io:SpiritCookieCake/scc-lewd-sculptures.git", "git@gitlab.com:Nabber/rimvore-2", "git@github.com:/WolfoftheWest/Rimnosis.git",
-              "git@ssh.gitgud.io:c0ffeeeeeeee/coffees-rjw-ideology-addons.git", "git@github.com:/moreoreganostodump/RJW-Sexperience.git"]
+              "git@ssh.gitgud.io:c0ffeeeeeeee/coffees-rjw-ideology-addons.git", "git@github.com:/moreoreganostodump/RJW-Sexperience.git",
+              "git@ssh.gitgud.io:c0ffeeeeeeee/rjw-toys-and-masturbation.git"]
     print("Good on you for using SSH")
     keysetup = input(
         "Have you setup Github, GitLab, and GitGud with your SSH key(s)? (Y/N) \n")
@@ -84,7 +85,7 @@ def githttps():
                "https://gitgud.io/Tory/animaddons-voicepatch.git", "https://gitgud.io/John-the-Anabaptist/licentia-labs.git", "https://gitgud.io/HiveBro/nephila-rjw.git",
                "https://github.com/moreoreganostodump/RJW_Menstruation.git", "https://gitlab.com/Hazzer/s16s-extension.git", "https://gitgud.io/c0ffeeeeeeee/rjw-events.git",
                "https://gitgud.io/SpiritCookieCake/scc-lewd-sculptures.git", "https://gitlab.com/Nabber/rimvore-2", "https://github.com/WolfoftheWest/Rimnosis.git",
-               "https://gitgud.io/c0ffeeeeeeee/coffees-rjw-ideology-addons.git", "https://github.com/moreoreganostodump/RJW-Sexperience.git"]
+               "https://gitgud.io/c0ffeeeeeeee/coffees-rjw-ideology-addons.git", "https://github.com/moreoreganostodump/RJW-Sexperience.git","https://gitgud.io/c0ffeeeeeeee/rjw-toys-and-masturbation.git"]
     print("Connecting with HTTPS")
     InstallYN = input("Do you want to clone or update the mods? \n")
     if InstallYN == "clone" or InstallYN == "Clone":
